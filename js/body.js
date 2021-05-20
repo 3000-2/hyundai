@@ -8,6 +8,9 @@ const swiper_banner = new Swiper(".banner .swiper-container", {
     nextEl: ".banner .swiper-button-next",
     prevEl: ".banner .swiper-button-prev",
   },
+  autoplay: {
+    delay: 5000,
+  },
 });
 
 const swiper_lineup = new Swiper(".section_1 .swiper-container", {
