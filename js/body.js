@@ -3,6 +3,7 @@ const sns = document.querySelectorAll(".section_3 .sns_container .sns li");
 const swiper_banner = new Swiper(".banner .swiper-container", {
   scrollbar: {
     el: ".banner .swiper-scrollbar",
+    draggable: true,
   },
   navigation: {
     nextEl: ".banner .swiper-button-next",
