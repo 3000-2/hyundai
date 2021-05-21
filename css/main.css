@@ -21,7 +21,6 @@ header {
   justify-content: flex-end;
   padding: 14px 48px;
   margin-right: 200px;
-  border-bottom: 1px solid #e5e5e5;
 }
 
 .menu_list {
@@ -130,6 +129,10 @@ header {
   margin-left: 32px;
   width: 149px;
   height: 70px;
+}
+
+.header_list {
+  border-top: 1px solid #e5e5e5;
 }
 
 .header_list ul {
